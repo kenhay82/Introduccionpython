@@ -1,6 +1,11 @@
 *{
     box-sizing: border-box;
 }
+nav{
+    margin-top: 0;
+    position: absolute;
+    
+}
 .banner{
     background-image: url("../img/banner.png");
     background-size: cover;
@@ -12,7 +17,7 @@
 .banner::after{
     content:'';
     position: absolute;
-    background-color: #000;
+    background-color: #d0813897;
     top:0;
     left:0;
     height: 100%;
@@ -26,6 +31,6 @@
     
 }
 
-#logotipo{
+.fuente{
     font-family: 'Castoro', serif;
 }

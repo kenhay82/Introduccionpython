@@ -9,6 +9,7 @@ def crearTabla(dataFrame,nombreTabla):
     #Establecemos la ruta donde vamos a guardar la tabla
     rutaArchivo=f"./assets/tables/{nombreTabla}.html"
     
+    
     #Generamos una estructura HTML
     encabezadoHTML=''' 
 <!DOCTYPE html>

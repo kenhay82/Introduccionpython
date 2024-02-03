@@ -121,7 +121,7 @@ def generarGrafica(dataFrame,nombreGrafica):
 
     #Filtro Yondó
     '''
-    plantacionYondo = dataFrame.groupby('Vereda')['Arboles'].mean()
+    plantacionYondo = dataFrame.groupby('Vereda')['Arboles'].sum()
     ##print(preciosPromedioPais)
     #0. Generando lista de colores.
     colores=['#CEC627','#C8E675','#B88836']

@@ -34,3 +34,7 @@ nav{
 .fuente{
     font-family: 'Castoro', serif;
 }
+
+iframe{
+    height: 300px;
+}

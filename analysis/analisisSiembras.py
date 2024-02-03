@@ -40,7 +40,7 @@ def analizarSiembra():
     #generarGrafica(filtroSantaRosas,'filtroSantaRosas')
 
     #Filtro Yondó
-    filtroYondo = tabla.query("(Ciudad=='Yondó')")
-    print(filtroYondo)
-    crearTabla(filtroYondo,'filtroYondo')
-    generarGrafica(filtroYondo,'filtroYondo')
+    #filtroYondo = tabla.query("(Ciudad=='Yondó')")
+    #print(filtroYondo)
+    #crearTabla(filtroYondo,'filtroYondo')
+    #generarGrafica(filtroYondo,'filtroYondo')
